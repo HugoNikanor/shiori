@@ -10,22 +10,7 @@
 			"item": [
 				{
 					"name": "/api/login",
-					"event": [
-						{
-							"listen": "test",
-							"script": {
-								"exec": [
-									"const jsonResponse = pm.response.json();",
-									"pm.globals.set('sessionID', jsonResponse.session);"
-								],
-								"type": "text/javascript"
-							}
-						}
-					],
 					"request": {
-						"auth": {
-							"type": "noauth"
-						},
 						"method": "POST",
 						"header": [
 							{
