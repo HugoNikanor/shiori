@@ -425,26 +425,6 @@
 			]
 		}
 	],
-	"auth": {
-		"type": "apikey",
-		"apikey": [
-			{
-				"key": "in",
-				"value": "header",
-				"type": "string"
-			},
-			{
-				"key": "value",
-				"value": "{{sessionID}}",
-				"type": "string"
-			},
-			{
-				"key": "key",
-				"value": "X-Session-Id",
-				"type": "string"
-			}
-		]
-	},
 	"event": [
 		{
 			"listen": "prerequest",
